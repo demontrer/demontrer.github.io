@@ -1,0 +1,45 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  overflow: hidden;
+  background: white;
+}
+
+.rev {
+  position: fixed;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.cont {
+  display: flex;
+  width: 160%;
+  position: absolute;
+  margin-left: -25%;
+  z-index: -2;
+  opacity: 0;
+}
+
+.rRect {
+  width: 0%;
+  height: 100vh;
+  transform: skew(-40deg);
+}
+
+.yell {
+  background: #43ccd6;
+}
+
+.mar {
+  background: #43ccd6;
+}
+
+.default {
+  background: #43ccd6;
+}
+
+.next {
+  background: #43ccd6;
+}

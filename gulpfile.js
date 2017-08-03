@@ -58,7 +58,7 @@ gulp.task('sass', function () {
           ];
     return gulp.src('_sass/main.sass')
         .pipe(sass({
-            includePaths: ['sass'],
+            includePaths: ['sass', 'scss'],
             onError: browserSync.notify
         }))
         .pipe(postcss(processors))
